@@ -1,0 +1,19 @@
+{
+  "commitish" : "a3695c35161eac6745274378a0b34b4d5c447391",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
+      "hash" : "546b70c097cae8c01b9d043d246b5fd73fc9530fc86e3a86a55501c70c32d3a3",
+      "name" : "ChatModule",
+      "container" : "ChatModule.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
+      "hash" : "e09da39988e3474044422442e4bdad0c4e1d8c6e05d0192249582147130995f9",
+      "name" : "ChatModule",
+      "container" : "ChatModule.xcframework",
+      "identifier" : "ios-arm64"
+    }
+  ]
+}

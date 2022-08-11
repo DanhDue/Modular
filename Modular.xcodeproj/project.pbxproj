@@ -15,6 +15,14 @@
 		1ABDFC4628A38A6F00B6DA08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABDFC4428A38A6F00B6DA08 /* LaunchScreen.storyboard */; };
 		1ABDFC5128A38A6F00B6DA08 /* ModularTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDFC5028A38A6F00B6DA08 /* ModularTests.swift */; };
 		1ABDFC5C28A38A6F00B6DA08 /* ModularUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDFC5B28A38A6F00B6DA08 /* ModularUITests.swift */; };
+		1AE2277E28A4AF1200A3FF07 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2277D28A4AF1200A3FF07 /* CircleImageView.swift */; };
+		1AE2278028A4B14E00A3FF07 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2277F28A4B14E00A3FF07 /* MapView.swift */; };
+		1AE2278228A4BB6A00A3FF07 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AE2278128A4BB6A00A3FF07 /* landmarkData.json */; };
+		1AE2278528A4BBD700A3FF07 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2278428A4BBD700A3FF07 /* Landmark.swift */; };
+		1AE2278928A4DD8F00A3FF07 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2278828A4DD8F00A3FF07 /* ModelData.swift */; };
+		1AE2278B28A4E0BE00A3FF07 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2278A28A4E0BE00A3FF07 /* LandmarkRow.swift */; };
+		1AE2278D28A4EB6200A3FF07 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2278C28A4EB6200A3FF07 /* LandmarkList.swift */; };
+		1AE2278F28A4EC5100A3FF07 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2278E28A4EC5100A3FF07 /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1ABDFCD028A3961A00B6DA08 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1ABDFC3628A38A6E00B6DA08 /* Modular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABDFC3928A38A6E00B6DA08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +70,14 @@
 		1ABDFC5728A38A6F00B6DA08 /* ModularUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABDFC5B28A38A6F00B6DA08 /* ModularUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularUITests.swift; sourceTree = "<group>"; };
 		1ABDFC5D28A38A6F00B6DA08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE2277D28A4AF1200A3FF07 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		1AE2277F28A4B14E00A3FF07 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		1AE2278128A4BB6A00A3FF07 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		1AE2278428A4BBD700A3FF07 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		1AE2278828A4DD8F00A3FF07 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		1AE2278A28A4E0BE00A3FF07 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		1AE2278C28A4EB6200A3FF07 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		1AE2278E28A4EC5100A3FF07 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +130,9 @@
 			children = (
 				1ABDFC3928A38A6E00B6DA08 /* AppDelegate.swift */,
 				1ABDFC3B28A38A6E00B6DA08 /* SceneDelegate.swift */,
-				1ABDFC3D28A38A6E00B6DA08 /* ContentView.swift */,
+				1AE2278728A4BC0600A3FF07 /* Views */,
+				1AE2278628A4BBF800A3FF07 /* Models */,
+				1AE2278328A4BB7600A3FF07 /* Resources */,
 				1ABDFC3F28A38A6F00B6DA08 /* Assets.xcassets */,
 				1ABDFC4428A38A6F00B6DA08 /* LaunchScreen.storyboard */,
 				1ABDFC4728A38A6F00B6DA08 /* Info.plist */,
@@ -136,6 +167,36 @@
 			path = ModularUITests;
 			sourceTree = "<group>";
 		};
+		1AE2278328A4BB7600A3FF07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AE2278128A4BB6A00A3FF07 /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1AE2278628A4BBF800A3FF07 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1AE2278428A4BBD700A3FF07 /* Landmark.swift */,
+				1AE2278828A4DD8F00A3FF07 /* ModelData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1AE2278728A4BC0600A3FF07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1ABDFC3D28A38A6E00B6DA08 /* ContentView.swift */,
+				1AE2277D28A4AF1200A3FF07 /* CircleImageView.swift */,
+				1AE2277F28A4B14E00A3FF07 /* MapView.swift */,
+				1AE2278A28A4E0BE00A3FF07 /* LandmarkRow.swift */,
+				1AE2278C28A4EB6200A3FF07 /* LandmarkList.swift */,
+				1AE2278E28A4EC5100A3FF07 /* LandmarkDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +207,7 @@
 				1ABDFC3228A38A6E00B6DA08 /* Sources */,
 				1ABDFC3328A38A6E00B6DA08 /* Frameworks */,
 				1ABDFC3428A38A6E00B6DA08 /* Resources */,
+				1ABDFCD028A3961A00B6DA08 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ABDFC4628A38A6F00B6DA08 /* LaunchScreen.storyboard in Resources */,
+				1AE2278228A4BB6A00A3FF07 /* landmarkData.json in Resources */,
 				1ABDFC4328A38A6F00B6DA08 /* Preview Assets.xcassets in Resources */,
 				1ABDFC4028A38A6F00B6DA08 /* Assets.xcassets in Resources */,
 			);
@@ -266,9 +329,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE2277E28A4AF1200A3FF07 /* CircleImageView.swift in Sources */,
 				1ABDFC3A28A38A6E00B6DA08 /* AppDelegate.swift in Sources */,
+				1AE2278028A4B14E00A3FF07 /* MapView.swift in Sources */,
 				1ABDFC3C28A38A6E00B6DA08 /* SceneDelegate.swift in Sources */,
+				1AE2278D28A4EB6200A3FF07 /* LandmarkList.swift in Sources */,
 				1ABDFC3E28A38A6E00B6DA08 /* ContentView.swift in Sources */,
+				1AE2278528A4BBD700A3FF07 /* Landmark.swift in Sources */,
+				1AE2278B28A4E0BE00A3FF07 /* LandmarkRow.swift in Sources */,
+				1AE2278F28A4EC5100A3FF07 /* LandmarkDetail.swift in Sources */,
+				1AE2278928A4DD8F00A3FF07 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +510,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Modular/Preview Content\"";
 				DEVELOPMENT_TEAM = WMNY6F6ZYN;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Modular/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -461,6 +535,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Modular/Preview Content\"";
 				DEVELOPMENT_TEAM = WMNY6F6ZYN;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Modular/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,0 +1,11 @@
+framework module ChatModule {
+  umbrella header "ChatModule.h"
+
+  export *
+  module * { export * }
+}
+
+module ChatModule.Swift {
+    header "ChatModule-Swift.h"
+    requires objc
+}

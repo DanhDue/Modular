@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Modular
+//  Chat
 //
 //  Created by DanhDue ExOICTIF on 10/08/2022.
 //

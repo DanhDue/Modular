@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Chat.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>ChatModule.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1ABDFC7128A38A9700B6DA08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1ABDFC8728A38A9800B6DA08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1ABDFC9228A38A9800B6DA08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1ABDFCA928A38AF000B6DA08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1ABDFCB128A38AF000B6DA08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
