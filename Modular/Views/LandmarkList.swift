@@ -21,7 +21,7 @@ struct LandmarkList: View {
             VStack {
                 Toggle(isOn: $showFavoritesOnly) {
                     Text("Favorites only")
-                }
+                }.padding(.horizontal, 22)
                 List(filterredList) { landmark in
                     NavigationLink(
                         destination: VStack {
@@ -35,7 +35,9 @@ struct LandmarkList: View {
                         }
                     })
                 }
+                .navigationViewStyle(StackNavigationViewStyle())
                 .navigationTitle("Landmarks")
+                .navigationBarHidden(true)
             }
         }
     }
