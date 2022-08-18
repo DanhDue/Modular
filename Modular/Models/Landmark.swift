@@ -12,7 +12,6 @@ import CoreLocation
 struct Landmark: Hashable, Codable, Identifiable {
     var id: Int?
     var name: String?
-    var category: String?
     var city: String?
     var state: String?
     var park: String?
@@ -37,5 +36,13 @@ struct Landmark: Hashable, Codable, Identifiable {
     struct Coordinates: Hashable, Codable {
         var latitude: Double?
         var longitude: Double?
+    }
+
+    var category: Category?
+
+    enum Category: String, CaseIterable, Codable {
+        case lakes = "Lakes"
+        case rivers = "Rivers"
+        case mountains = "Mountains"
     }
 }
