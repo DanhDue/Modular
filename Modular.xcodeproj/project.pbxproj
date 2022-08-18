@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A86FF1228AE07E500C1732D /* NoSeparatorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A86FF1128AE07E500C1732D /* NoSeparatorList.swift */; };
 		1ABDFC3A28A38A6E00B6DA08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDFC3928A38A6E00B6DA08 /* AppDelegate.swift */; };
 		1ABDFC3C28A38A6E00B6DA08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDFC3B28A38A6E00B6DA08 /* SceneDelegate.swift */; };
 		1ABDFC3E28A38A6E00B6DA08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDFC3D28A38A6E00B6DA08 /* ContentView.swift */; };
@@ -71,6 +72,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A86FF1128AE07E500C1732D /* NoSeparatorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSeparatorList.swift; sourceTree = "<group>"; };
 		1ABDFC3628A38A6E00B6DA08 /* Modular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABDFC3928A38A6E00B6DA08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1ABDFC3B28A38A6E00B6DA08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 				1AEE6BB128ACCB910009C481 /* Badges */,
 				1AEE6BB828ACDAEA0009C481 /* Hikes */,
 				1AC40C8128ADDF8E0048ECB3 /* Categories */,
+				1A86FF1128AE07E500C1732D /* NoSeparatorList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -423,6 +426,7 @@
 				1AEE6BBE28ACDAF70009C481 /* HikeView.swift in Sources */,
 				1AC40C8328ADDF970048ECB3 /* CategoryRow.swift in Sources */,
 				1AE2278028A4B14E00A3FF07 /* MapView.swift in Sources */,
+				1A86FF1228AE07E500C1732D /* NoSeparatorList.swift in Sources */,
 				1ABDFC3C28A38A6E00B6DA08 /* SceneDelegate.swift in Sources */,
 				1AE2278D28A4EB6200A3FF07 /* LandmarkList.swift in Sources */,
 				1AC40C8528ADE2200048ECB3 /* CategoryItem.swift in Sources */,
