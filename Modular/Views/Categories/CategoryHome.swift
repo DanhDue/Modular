@@ -10,27 +10,40 @@ import SwiftUI
 struct CategoryHome: View {
 
     @EnvironmentObject var modelData: ModelData
+    @State private var showingProfile = false
 
     var body: some View {
         NavigationView {
-            NoSeparatorList(modelData.categories.keys.sorted(), id: \.self) { key in
-                modelData.features[0].image
-                    .resizable()
-                    .scaledToFill()
-                    .frame(height: 200)
-                    .clipped()
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack {
+                    modelData.features[0].image
+                        .resizable()
+                        .scaledToFill()
+                        .frame(height: 200)
+                        .clipped()
                     .listRowInsets(EdgeInsets())
-                Spacer().frame(height: 7).listRowBackground(Color.white.opacity(0))
-                ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
-                    CategoryRow(categoryName: key, items: modelData.categories[key] ?? [])
-                    Spacer().frame(height: 7)
-                }.listRowInsets(EdgeInsets()).listRowBackground(Color.white.opacity(0))
-            }.listRowInsets(EdgeInsets())
+                    Spacer().frame(height: 7).listRowBackground(Color.white.opacity(0))
+                    ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
+                        CategoryRow(categoryName: key, items: modelData.categories[key] ?? [])
+                        Spacer().frame(height: 7)
+                    }
+                }
+            }
             .navigationTitle("Featured")
             .navigationViewStyle(StackNavigationViewStyle())
-            .navigationBarHidden(true)
             .listRowBackground(Color.blue)
             .listRowInsets(EdgeInsets())
+            .listStyle(.inset)
+            .toolbar {
+                Button {
+                    showingProfile.toggle()
+                } label: {
+                    Label("User Profile", systemImage: "person.crop.circle")
+                }
+            }
+            .sheet(isPresented: $showingProfile) {
+                ProfileHost().environmentObject(modelData)
+            }
         }.padding(.all, .zero).navigationBarTitleDisplayMode(.large)
     }
 }
