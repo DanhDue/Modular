@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A57E79B28AF26D100B0F75A /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A57E79A28AF26D100B0F75A /* ProfileEditor.swift */; };
+		1A57E79D28AF281500B0F75A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A57E79C28AF281500B0F75A /* Utils.swift */; };
 		1A86FF1228AE07E500C1732D /* NoSeparatorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A86FF1128AE07E500C1732D /* NoSeparatorList.swift */; };
 		1A92C1EB28AE18C5000526A7 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A92C1EA28AE18C5000526A7 /* Profile.swift */; };
 		1A92C1EE28AE1A98000526A7 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A92C1ED28AE1A98000526A7 /* ProfileHost.swift */; };
@@ -76,6 +78,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A57E79A28AF26D100B0F75A /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		1A57E79C28AF281500B0F75A /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		1A86FF1128AE07E500C1732D /* NoSeparatorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSeparatorList.swift; sourceTree = "<group>"; };
 		1A92C1EA28AE18C5000526A7 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		1A92C1ED28AE1A98000526A7 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
@@ -159,6 +163,7 @@
 				1A92C1EA28AE18C5000526A7 /* Profile.swift */,
 				1A92C1ED28AE1A98000526A7 /* ProfileHost.swift */,
 				1A92C1EF28AE1BAF000526A7 /* ProfileSummary.swift */,
+				1A57E79A28AF26D100B0F75A /* ProfileEditor.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 				1ABDFC4428A38A6F00B6DA08 /* LaunchScreen.storyboard */,
 				1ABDFC4728A38A6F00B6DA08 /* Info.plist */,
 				1ABDFC4128A38A6F00B6DA08 /* Preview Content */,
+				1A57E79C28AF281500B0F75A /* Utils.swift */,
 			);
 			path = Modular;
 			sourceTree = "<group>";
@@ -448,6 +454,7 @@
 			files = (
 				1AEE6BB728ACD01C0009C481 /* Hike.swift in Sources */,
 				1AEE6BA828AC9ABB0009C481 /* HexagonParameters.swift in Sources */,
+				1A57E79B28AF26D100B0F75A /* ProfileEditor.swift in Sources */,
 				1A92C1F028AE1BAF000526A7 /* ProfileSummary.swift in Sources */,
 				1AE2277E28A4AF1200A3FF07 /* CircleImageView.swift in Sources */,
 				1A92C1EB28AE18C5000526A7 /* Profile.swift in Sources */,
@@ -466,6 +473,7 @@
 				1AEE6BAE28ACA4520009C481 /* RotatedBadgeSymbol.swift in Sources */,
 				1AEE6BC028ACDAF70009C481 /* HikeDetail.swift in Sources */,
 				1AEE6BB028ACC9DD0009C481 /* Badge.swift in Sources */,
+				1A57E79D28AF281500B0F75A /* Utils.swift in Sources */,
 				1AE2278528A4BBD700A3FF07 /* Landmark.swift in Sources */,
 				1A92C1F228AE1E72000526A7 /* HikeBadge.swift in Sources */,
 				1AEE6BBF28ACDAF70009C481 /* HikeGraph.swift in Sources */,
