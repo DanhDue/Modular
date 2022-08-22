@@ -2,7 +2,7 @@
 //  ModularUITests.swift
 //  ModularUITests
 //
-//  Created by DanhDue ExOICTIF on 10/08/2022.
+//  Created by DanhDue ExOICTIF on 19/08/2022.
 //
 
 import XCTest
@@ -27,7 +27,6 @@ class ModularUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
 
-        // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
