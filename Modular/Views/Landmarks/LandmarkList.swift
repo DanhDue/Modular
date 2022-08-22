@@ -35,6 +35,14 @@ struct LandmarkList: View {
                             Spacer()
                         }
                     })
+//                    NavigationLink {
+//                        LandmarkDetail(landmark: landmark)
+//                    } label: {
+//                        VStack {
+//                            LandmarkRow(landmark: landmark).listRowInsets(EdgeInsets())
+//                            Spacer()
+//                        }
+//                    }
                 }
                 .navigationViewStyle(StackNavigationViewStyle())
                 .navigationTitle("Landmarks")
